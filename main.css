@@ -111,8 +111,11 @@ main {
 /* Third Sub-main div styling below */
 .section3 {
   grid-template-columns: 40% 60%;
-  gap: 1em;
+  gap: 3em;
   height: auto;
+  background-color: transparent !important;
+}
+.section3 > .first_element {
   background-color: transparent !important;
 }
 .section3 > .first_element > img {
@@ -126,10 +129,25 @@ main {
 }
 .section3_subs {
   border: 1px solid white;
-  background-color: white;
+  background-color: gainsboro;
   margin-bottom: 1em;
   padding: 35px;
   border-radius: 20px;
   display: flex;
   align-items: center;
+}
+.section3_icons {background-color: transparent;}
+.section3_icons_links {
+  background-color: transparent;
+  margin-left: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #b40909;
+}
+.section3_icons_links:hover {
+  text-decoration: underline;
+}
+/* Footer Stylings */
+footer {
+  width: 100%;
 }

@@ -19,7 +19,7 @@ main {
 }
 .first_element {
     background-color: gainsboro;
-    height: 100%;
+    height: auto;
 }
 #first_element_img {
   border: none;
@@ -47,7 +47,7 @@ main {
 .second_element > hr {
   background-color: #b40909;
   height: 5px;
-  width: 100px;
+  width: 80px;
   margin-left: 10px;
 }
 .second_element > p {
@@ -77,8 +77,14 @@ main {
 }
 .section2 > .first_element {
   text-align: center;
+  min-height: 60vh !important;
 }
-
+.section2 > .second_element {
+  padding-left: 10px;
+}
+.second_element_h2{
+  padding: 0 !important;
+}
 .second_element_p {
   overflow-wrap: break-word;
   font-size: 14px;
@@ -86,13 +92,16 @@ main {
   font-weight: 100 !important;
   background-color: transparent;
   margin-top: 40px !important;
+  margin-left: 0 !important;
 }
 .second_element_a {
-  margin-left: 10px;
+  
   text-decoration: none;
-  overflow-wrap: break-word;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 18px;
   font-weight: 550;
   color: black;
+  word-spacing: 3px;
+}
+.second_style {
+  margin-left: 0 !important;
 }

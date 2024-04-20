@@ -136,7 +136,9 @@ main {
   display: flex;
   align-items: center;
 }
-.section3_icons {background-color: transparent;}
+.section3_icons {
+  background-color: transparent;
+}
 .section3_icons_links {
   background-color: transparent;
   margin-left: 20px;
@@ -179,7 +181,8 @@ footer {
   background-color: transparent;
 }
 
-.elem1 h2, h3 {
+.elem1 h2,
+h3 {
   background-color: transparent;
   line-height: 40px;
 }
@@ -187,6 +190,14 @@ footer {
   margin-top: 20px;
   background-color: transparent;
 }
-#footer_social_icons > a, image {
+#footer_social_icons > a {
   background-color: transparent;
+  margin: 5px;
+}
+#footer_social_icons > a > img {
+  filter: invert(100%);
+  background-color: transparent;
+}
+#footer_social_icons > a > img:hover {
+  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(60deg) brightness(137%) contrast(73%);
 }

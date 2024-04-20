@@ -156,7 +156,7 @@ footer {
   color: #ffffff;
   padding: 20px 0 20px 0;
   margin-top: 8em;
-  min-height: 80vh;
+  min-height: 90vh;
 }
 .sec1 {
   width: 100%;
@@ -170,12 +170,13 @@ footer {
   background-color: transparent;
 }
 .grid_sec2 {
-  width: 80%;
+  width: 100%;
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 40% 30% 30%;
   background-color: transparent;
-  margin-top: 100px !important;
-  margin: auto;
+  margin-top: 100px;
+  padding-left: 7rem;
+
 }
 .grid_element {
   background-color: transparent;
@@ -199,5 +200,24 @@ h3 {
   background-color: transparent;
 }
 #footer_social_icons > a > img:hover {
-  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(60deg) brightness(137%) contrast(73%);
+  filter: invert(20%) sepia(243%) saturate(1576%) hue-rotate(30deg) brightness(137%) contrast(73%);
+}
+.elem2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  background-color: transparent;
+}
+.elem2 > a {
+  background-color: transparent;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.elem2 > a:hover {
+  text-decoration: underline;
+  color: #b40909;
 }

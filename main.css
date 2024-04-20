@@ -129,7 +129,7 @@ main {
 }
 .section3_subs {
   border: 1px solid white;
-  background-color: gainsboro;
+  background-color: rgb(235, 232, 232);
   margin-bottom: 1em;
   padding: 35px;
   border-radius: 20px;
@@ -153,5 +153,33 @@ footer {
   background-color: #051e3b;
   color: #ffffff;
   padding: 20px 0 20px 0;
-  margin-top: 40px;
+  margin-top: 8em;
+  min-height: 80vh;
+}
+.sec1 {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: -35px;
+  background-color: transparent;
+}
+.sec1 > img {
+  width: 50px;
+  background-color: transparent;
+}
+.grid_sec2 {
+  width: 80%;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: transparent;
+  margin-top: 100px !important;
+  margin: auto;
+}
+.grid_element {
+  background-color: transparent;
+}
+
+.elem1 h2, h3 {
+  background-color: transparent;
+  line-height: 40px;
 }

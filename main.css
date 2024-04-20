@@ -183,3 +183,10 @@ footer {
   background-color: transparent;
   line-height: 40px;
 }
+#footer_social_icons {
+  margin-top: 20px;
+  background-color: transparent;
+}
+#footer_social_icons > a, image {
+  background-color: transparent;
+}

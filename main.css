@@ -15,11 +15,10 @@ main {
   grid-template-columns: 65% 35%;
   gap: 1em;
   height: auto;
-  
 }
 .first_element {
-    background-color: gainsboro;
-    height: auto;
+  background-color: gainsboro;
+  height: auto;
 }
 #first_element_img {
   border: none;
@@ -83,20 +82,23 @@ main {
 .section2 > .second_element {
   padding-left: 10px;
 }
-.second_element_h2{
+.second_element_h2 {
   padding: 0 !important;
 }
 .second_element_p {
   overflow-wrap: break-word;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 25px;
   font-weight: 100 !important;
   background-color: transparent;
   margin-top: 20px !important;
   margin-left: 0 !important;
 }
+.second_element_p > a {
+  text-decoration: none;
+  color: black;
+}
 .second_element_a {
-  
   text-decoration: none;
   font-size: 16px;
   font-weight: 550;
@@ -105,4 +107,29 @@ main {
 }
 .second_style {
   margin-left: 0 !important;
+}
+/* Third Sub-main div styling below */
+.section3 {
+  grid-template-columns: 40% 60%;
+  gap: 1em;
+  height: auto;
+  background-color: transparent !important;
+}
+.section3 > .first_element > img {
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+.section3_second_element {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section3_subs {
+  border: 1px solid white;
+  background-color: white;
+  margin-bottom: 1em;
+  padding: 35px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
 }

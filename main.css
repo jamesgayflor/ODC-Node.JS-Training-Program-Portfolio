@@ -78,6 +78,7 @@ main {
 .section2 > .first_element {
   text-align: center;
   min-height: 60vh !important;
+  background-color: transparent !important;
 }
 .section2 > .second_element {
   padding-left: 10px;
@@ -87,17 +88,17 @@ main {
 }
 .second_element_p {
   overflow-wrap: break-word;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 25px;
   font-weight: 100 !important;
   background-color: transparent;
-  margin-top: 40px !important;
+  margin-top: 20px !important;
   margin-left: 0 !important;
 }
 .second_element_a {
   
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 550;
   color: black;
   word-spacing: 3px;

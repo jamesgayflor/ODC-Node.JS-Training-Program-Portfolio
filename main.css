@@ -65,4 +65,34 @@ main {
   grid-template-columns: 30% 40% 30%;
   gap: 1em;
   height: auto;
+  background-color: transparent !important;
+}
+#first_element_img2 {
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: auto;
+}
+.section2 > .first_element {
+  text-align: center;
+}
+
+.second_element_p {
+  overflow-wrap: break-word;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 100 !important;
+  background-color: transparent;
+  margin-top: 40px !important;
+}
+.second_element_a {
+  margin-left: 10px;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 550;
+  color: black;
 }
